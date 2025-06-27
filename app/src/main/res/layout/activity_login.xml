@@ -54,7 +54,7 @@
 
 
     <CheckBox
-        android:id="@+id/checkBoxRecordarme"
+        android:id="@+id/checkBoxRememberMe"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
@@ -74,9 +74,9 @@
         android:backgroundTint="@color/colorPrimaryDark"
         android:text="@string/text_start_game"
         android:textColor="@android:color/white"
-        app:layout_constraintEnd_toEndOf="@+id/checkBoxRecordarme"
-        app:layout_constraintStart_toStartOf="@+id/checkBoxRecordarme"
-        app:layout_constraintTop_toBottomOf="@+id/checkBoxRecordarme" />
+        app:layout_constraintEnd_toEndOf="@+id/checkBoxRememberMe"
+        app:layout_constraintStart_toStartOf="@+id/checkBoxRememberMe"
+        app:layout_constraintTop_toBottomOf="@+id/checkBoxRememberMe" />
 
     <Button
         android:id="@+id/buttonNewUser"
